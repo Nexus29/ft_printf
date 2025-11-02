@@ -82,7 +82,7 @@ This implementation supports the following conversions and format specifiers:
 | Type | Format | Description |
 | :--- | :--- | :--- |
 | **Field Width** | `%10d` | Specifies the minimum number of characters to be printed. |
-| **Precision** | `%.5s`, `%.2f` | For strings: maximum number of characters to be printed. For integers: minimum number of digits to appear. |
+| **Precision** | `%.5s` | For strings: maximum number of characters to be printed. For integers: minimum number of digits to appear. |
 | **Zero Padding** | `%010d` | Pads the output with leading zeros instead of spaces. |
 | **Left Justify** | `%-10d` | Left-justifies the result within the field width. |
 
