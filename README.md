@@ -38,11 +38,16 @@ The goal of this project is to recreate the functionality of the standard C libr
 
     **In your C file (`main.c`):**
     ```c
-    #include "ft_printf.h" 
+    #include "src/ft_printf.h"
+    #include "stdio.h"
     
     int main(void)
     {
-        int count = ft_printf("My number is: %d and my name is %s\n", 42, "Giovanni");
+        int count = ft_printf("My number is: %d and my (fake)name is %s\n", 42, "glancell");
+        printf("Fake: %d\n", count);
+
+        count = printf("My number is: %d and my (real)name is %s\n", 42, "Giovanni");
+        printf("Real: %d\n", count);
         return (0);
     }
     ```
