@@ -23,7 +23,7 @@ The goal of this project is to recreate the functionality of the standard C libr
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/Nexus29/42-ft_printf.git](https://github.com/Nexus29/42-ft_printf.git)
+    git clone git@github.com:Nexus29/ft_printf.git
     cd ft_printf
     ```
 
