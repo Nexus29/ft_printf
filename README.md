@@ -59,7 +59,7 @@ The goal of this project is to recreate the functionality of the standard C libr
 
 This implementation supports the following conversions and format specifiers:
 
-#### **Supported Conversions ($\text{\%}$ Specifiers)**
+#### **Supported Conversions ($\text{\%}$Specifiers)**
 
 | Conversion | Description |
 | :--- | :--- |
@@ -72,7 +72,7 @@ This implementation supports the following conversions and format specifiers:
 | `X` | Prints a number in uppercase hexadecimal format (e.g., `1F`). |
 | `%%` | Prints a literal percent sign. |
 
-#### **Supported Flags, Width, and Precision (Mandatory)**
+#### **Supported Flags, Width, and Precision (Bonus)**
 
 | Type | Format | Description |
 | :--- | :--- | :--- |
