@@ -59,7 +59,7 @@ The goal of this project is to recreate the functionality of the standard C libr
 
 This implementation supports the following conversions and format specifiers:
 
-#### **Supported Conversions ($\text{\%}$ Specifiers)**
+#### **Supported Conversions (Specifiers)**
 
 | Conversion | Description |
 | :--- | :--- |
